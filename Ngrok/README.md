@@ -1,12 +1,14 @@
 ## Check firewall
 
-Make sur firewall is enable allow
+Check firewall Make sur is enable allow
 
 ```bash
 sudo ufw status
 ```
 
 ## Install the ngrok in Ubuntu 
+
+Download via curl Ngrok
 
 ```bash
 curl -sSL https://ngrok-agent.s3.amazonaws.com/ngrok.asc \
@@ -18,6 +20,8 @@ curl -sSL https://ngrok-agent.s3.amazonaws.com/ngrok.asc \
 ```
 
 ## Bring your domain
+
+3000 is port backend web-application
 
 ```bash
 http ngrok 3000
