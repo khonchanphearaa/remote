@@ -34,7 +34,7 @@ server {
         try_files $uri $uri/ /index.html;
     }
 
-    # Route API requests to your Node.js backend (running on port 3000 via PM2)
+    # Route API requests to your Node.js backend (running on port 3000)
     location /api/ {
         proxy_pass http://localhost:3000/;
         proxy_http_version 1.1;
