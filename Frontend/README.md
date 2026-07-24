@@ -115,3 +115,9 @@ nohup ngrok http 80 > /dev/null 2>&1 &
 ```bash
 docker logs -f student_api
 ```
+
+If is still error ngrok_3000_error try this:
+
+```bash
+nohup ngrok http 80 --pooling-enabled > /dev/null 2>&1 &
+```
